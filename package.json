@@ -6,7 +6,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "cypress.config.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
